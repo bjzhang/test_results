@@ -1,0 +1,191 @@
+##############################################################################
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+#                                                                            #
+# 'reportable' flag not set during run                                       #
+# 471.omnetpp (base) did not have enough runs!                               #
+# 456.hmmer (base) did not have enough runs!                                 #
+# 445.gobmk (base) did not have enough runs!                                 #
+# 458.sjeng (base) did not have enough runs!                                 #
+# 429.mcf (base) did not have enough runs!                                   #
+# 473.astar (base) did not have enough runs!                                 #
+# 483.xalancbmk (base) did not have enough runs!                             #
+# 400.perlbench (base) did not have enough runs!                             #
+# 464.h264ref (base) did not have enough runs!                               #
+# 462.libquantum (base) did not have enough runs!                            #
+# 401.bzip2 (base) did not have enough runs!                                 #
+# 403.gcc (base) did not have enough runs!                                   #
+# Unknown flags were used! See                                               #
+#      http://www.spec.org/cpu2006/Docs/runspec.html#flagsurl                #
+# for information about how to get rid of this error.                        #
+#                                                                            #
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+##############################################################################
+                           SPEC(R) CINT2006 Summary
+                                   -- Hikey
+                             Test Sponsor: Linaro
+                           Sat Dec 24 10:59:15 2016
+
+CPU2006 License: 4114                                    Test date: Dec-2016
+Test sponsor: Linaro                         Hardware availability: --      
+Tested by:    Linaro                         Software availability: --      
+
+                                  Estimated                       Estimated
+                Base     Base       Base        Peak     Peak       Peak
+Benchmarks      Ref.   Run Time     Ratio       Ref.   Run Time     Ratio
+-------------- ------  ---------  ---------    ------  ---------  ---------
+400.perlbench    9770       2267       4.31 *                                  
+401.bzip2        9650       3670       2.63 *                                  
+403.gcc          8050       2011       4.00 *                                  
+429.mcf          9120       4539       2.01 *                                  
+445.gobmk       10490       2186       4.80 *                                  
+456.hmmer        9330       2302       4.05 *                                  
+458.sjeng       12100       2618       4.62 *                                  
+462.libquantum  20720       1901      10.9  *                                  
+464.h264ref     22130       3018       7.33 *                                  
+471.omnetpp                                 NR                                 
+473.astar        7020       2547       2.76 *                                  
+483.xalancbmk    6900       1787       3.86 *                                  
+==============================================================================
+400.perlbench    9770       2267       4.31 *                                  
+401.bzip2        9650       3670       2.63 *                                  
+403.gcc          8050       2011       4.00 *                                  
+429.mcf          9120       4539       2.01 *                                  
+445.gobmk       10490       2186       4.80 *                                  
+456.hmmer        9330       2302       4.05 *                                  
+458.sjeng       12100       2618       4.62 *                                  
+462.libquantum  20720       1901      10.9  *                                  
+464.h264ref     22130       3018       7.33 *                                  
+471.omnetpp                                 NR                                 
+473.astar        7020       2547       2.76 *                                  
+483.xalancbmk    6900       1787       3.86 *                                  
+ Est. SPECint(R)_base2006                --
+ Est. SPECint2006                                                   Not Run
+
+
+                                   HARDWARE
+                                   --------
+            CPU Name: --
+ CPU Characteristics:  
+             CPU MHz: --
+                 FPU: fp_asimd
+      CPU(s) enabled: -1 cores, -1 chips, -1 cores/chip, -1 threads/core
+    CPU(s) orderable: --
+       Primary Cache: --
+     Secondary Cache: --
+            L3 Cache: --
+         Other Cache: --
+              Memory: --
+      Disk Subsystem: --
+      Other Hardware: --
+
+
+                                   SOFTWARE
+                                   --------
+    Operating System: 4.9.0-11354-gd4951e30162f-dirty
+            Compiler: Using built-in specs. COLLECT_GCC=gcc COLLECT_LTO_WRAPPER=/usr/lib64/gcc/aarch64-suse-linux/6/lto-wrapper Target: aarch64-suse-linux Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada,go --enable-checking=release --with-gxx-include-dir=/usr/include/c++/6 --enable-ssp --disable-libssp --disable-libvtv --disable-libmpx --disable-libcc1 --enable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-6 --without-system-libunwind --build=aarch64-suse-linux --host=aarch64-suse-linux Thread model: posix gcc version 6.2.1 20160830 [gcc-6-branch revision 239856] (SUSE Linux)
+       Auto Parallel: No
+         File System: --
+        System State: --
+       Base Pointers: --
+       Peak Pointers: Not Applicable
+      Other Software: --
+
+
+                                General Notes
+                                -------------
+     Top-level shell is run with taskset, so whole benchmark suite is executed on a single core
+
+                              Base Unknown Flags
+                              ------------------
+  400.perlbench: "gcc" (in CC) "gcc" (in LD)
+                 "-fgnu89-inline" (in CPORTABILITY)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+      401.bzip2: "gcc" (in CC) "gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+        403.gcc: "gcc" (in CC) "gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+        429.mcf: "gcc" (in CC) "gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+      445.gobmk: "gcc" (in CC) "gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+      456.hmmer: "gcc" (in CC) "gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+      458.sjeng: "gcc" (in CC) "gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+ 462.libquantum: "gcc" (in CC) "gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+    464.h264ref: "gcc" (in CC) "gcc" (in LD)
+                 "-fsigned-char" (in CPORTABILITY)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+      473.astar: "g++" (in CXX) "g++" (in LD)
+                 "-O3 -fno-common -static -static-libgcc" (in CXXOPTIMIZE)
+
+  483.xalancbmk: "g++" (in CXX) "g++" (in LD)
+                 "-O3 -fno-common -static -static-libgcc" (in CXXOPTIMIZE)
+
+
+                            Base Portability Flags
+                            ----------------------
+  400.perlbench: -DSPEC_CPU_LP64 -DSPEC_CPU_LINUX_X64
+      401.bzip2: -DSPEC_CPU_LP64
+        403.gcc: -DSPEC_CPU_LP64
+        429.mcf: -DSPEC_CPU_LP64
+      445.gobmk: -DSPEC_CPU_LP64
+      456.hmmer: -DSPEC_CPU_LP64
+      458.sjeng: -DSPEC_CPU_LP64
+ 462.libquantum: -DSPEC_CPU_LP64 -DSPEC_CPU_LINUX
+    464.h264ref: -DSPEC_CPU_LP64
+      473.astar: -DSPEC_CPU_LP64
+  483.xalancbmk: -DSPEC_CPU_LP64 -DSPEC_CPU_LINUX
+
+
+                           Base Optimization Flags
+                           -----------------------
+C++ benchmarks:
+
+      473.astar: No flags used
+
+  483.xalancbmk: Same as 473.astar
+
+
+    SPEC and SPECint are registered trademarks of the Standard Performance
+    Evaluation Corporation.  All other brand and product names appearing
+    in this result are trademarks or registered trademarks of their
+    respective holders.
+##############################################################################
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+#                                                                            #
+# 'reportable' flag not set during run                                       #
+# 471.omnetpp (base) did not have enough runs!                               #
+# 456.hmmer (base) did not have enough runs!                                 #
+# 445.gobmk (base) did not have enough runs!                                 #
+# 458.sjeng (base) did not have enough runs!                                 #
+# 429.mcf (base) did not have enough runs!                                   #
+# 473.astar (base) did not have enough runs!                                 #
+# 483.xalancbmk (base) did not have enough runs!                             #
+# 400.perlbench (base) did not have enough runs!                             #
+# 464.h264ref (base) did not have enough runs!                               #
+# 462.libquantum (base) did not have enough runs!                            #
+# 401.bzip2 (base) did not have enough runs!                                 #
+# 403.gcc (base) did not have enough runs!                                   #
+# Unknown flags were used! See                                               #
+#      http://www.spec.org/cpu2006/Docs/runspec.html#flagsurl                #
+# for information about how to get rid of this error.                        #
+#                                                                            #
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+##############################################################################
+-----------------------------------------------------------------------------
+For questions about this result, please contact the tester.
+For other inquiries, please contact webmaster@spec.org.
+Copyright 2006-2016 Standard Performance Evaluation Corporation
+Tested with SPEC CPU2006 v1.2.
+Report generated on Sat Dec 24 19:04:36 2016 by CPU2006 ASCII formatter v6400.

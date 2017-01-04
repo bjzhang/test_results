@@ -1,0 +1,199 @@
+make[1]: Entering directory `/home/bamvor/works/source/testsuite/lmbench/lmbench-3.0-a9/results'
+
+                 L M B E N C H  3 . 0   S U M M A R Y
+                 ------------------------------------
+		 (Alpha software, do not distribute)
+
+Basic system parameters
+------------------------------------------------------------------------------
+Host                 OS Description              Mhz  tlb  cache  mem   scal
+                                                     pages line   par   load
+                                                           bytes  
+--------- ------------- ----------------------- ---- ----- ----- ------ ----
+localhost Linux 4.9.0-1           ILP32_disable 1200    10    64 2.4400    1
+localhost Linux 4.9.0-1           ILP32_disable 1200    10    64 2.5000    1
+localhost Linux 4.9.0-1           ILP32_disable 1200    10    64 2.4900    1
+localhost Linux 4.9.0-1           ILP32_disable 1200    10    64 2.5500    1
+localhost Linux 4.9.0-1           ILP32_disable 1200    10    64 2.4800    1
+localhost Linux 4.9.0-1          ILP32_unmerged 1200    10    64 2.4400    1
+localhost Linux 4.9.0-1          ILP32_unmerged 1200    10    64 2.5100    1
+localhost Linux 4.9.0-1          ILP32_unmerged 1200    10    64 2.5200    1
+localhost Linux 4.9.0-1          ILP32_unmerged 1200    10    64 2.4900    1
+localhost Linux 4.9.0-1          ILP32_unmerged 1200    10    64 2.5100    1
+
+Processor, Processes - times in microseconds - smaller is better
+------------------------------------------------------------------------------
+Host                 OS  Mhz null null      open slct sig  sig  fork exec sh  
+                             call  I/O stat clos TCP  inst hndl proc proc proc
+--------- ------------- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+localhost Linux 4.9.0-1 1200 0.23 0.50 3.89 6.90 17.0 0.72 3.04 460. 1512 6793
+localhost Linux 4.9.0-1 1200 0.23 0.49 3.91 6.82 17.0 0.75 3.05 493. 1588 6831
+localhost Linux 4.9.0-1 1200 0.25 0.50 3.89 6.90 16.9 0.73 3.05 436. 1572 6856
+localhost Linux 4.9.0-1 1200 0.23 0.51 3.88 6.65 17.1 0.74 3.06 481. 1646 6759
+localhost Linux 4.9.0-1 1200 0.24 0.50 3.87 6.65 17.1 0.74 3.05 517. 1536 6885
+localhost Linux 4.9.0-1 1200 0.24 0.51 3.71 6.84 17.3 0.74 3.24 557. 1573 6586
+localhost Linux 4.9.0-1 1200 0.24 0.52 3.69 6.57 17.0 0.74 3.09 452. 1595 6540
+localhost Linux 4.9.0-1 1200 0.24 0.52 3.73 6.60 17.1 0.73 3.09 528. 1502 6589
+localhost Linux 4.9.0-1 1200 0.24 0.51 3.69 6.53 17.2 0.74 3.10 511. 1562 6553
+localhost Linux 4.9.0-1 1200 0.24 0.51 3.69 6.68 17.3 0.71 3.10 478. 1567 6555
+
+Basic integer operations - times in nanoseconds - smaller is better
+-------------------------------------------------------------------
+Host                 OS  intgr intgr  intgr  intgr  intgr  
+                          bit   add    mul    div    mod   
+--------- ------------- ------ ------ ------ ------ ------ 
+localhost Linux 4.9.0-1 0.8300 0.8300          62.1   21.9
+localhost Linux 4.9.0-1 0.8300 0.8300          62.4   21.9
+localhost Linux 4.9.0-1 0.8300 0.8300          62.0   21.9
+localhost Linux 4.9.0-1 0.8600 0.8300          61.7   21.9
+localhost Linux 4.9.0-1 0.8300 0.8300          62.2   21.9
+localhost Linux 4.9.0-1 0.8300 0.8300          60.5   22.0
+localhost Linux 4.9.0-1 0.8300 0.8300          62.1   22.0
+localhost Linux 4.9.0-1 0.8300 0.8600 0.0300   60.4   21.9
+localhost Linux 4.9.0-1 0.8300 0.8600 0.0300   60.5   22.0
+localhost Linux 4.9.0-1 0.8600 0.8300          61.2   21.9
+
+Basic uint64 operations - times in nanoseconds - smaller is better
+------------------------------------------------------------------
+Host                 OS int64  int64  int64  int64  int64  
+                         bit    add    mul    div    mod   
+--------- ------------- ------ ------ ------ ------ ------ 
+localhost Linux 4.9.0-1  0.840                194.6   42.3
+localhost Linux 4.9.0-1  0.840                195.9   44.1
+localhost Linux 4.9.0-1  0.840                201.0   43.9
+localhost Linux 4.9.0-1  0.840                201.3   43.3
+localhost Linux 4.9.0-1  0.840                196.0   43.0
+localhost Linux 4.9.0-1  0.840                205.1   39.2
+localhost Linux 4.9.0-1  0.840                201.8   43.3
+localhost Linux 4.9.0-1  0.840                203.5   39.2
+localhost Linux 4.9.0-1  0.840                203.5   43.3
+localhost Linux 4.9.0-1  0.870                195.0   45.0
+
+Basic float operations - times in nanoseconds - smaller is better
+-----------------------------------------------------------------
+Host                 OS  float  float  float  float
+                         add    mul    div    bogo
+--------- ------------- ------ ------ ------ ------ 
+localhost Linux 4.9.0-1 3.3300 3.4400   10.8   20.2
+localhost Linux 4.9.0-1 3.3300 3.3300   10.8   20.2
+localhost Linux 4.9.0-1 3.3300 3.4400   10.8   20.2
+localhost Linux 4.9.0-1 3.3300 3.3300   10.8   20.2
+localhost Linux 4.9.0-1 3.4400 3.3300   10.8   20.8
+localhost Linux 4.9.0-1 3.3300 3.3300   10.8   20.2
+localhost Linux 4.9.0-1 3.3300 3.3300   10.8   20.2
+localhost Linux 4.9.0-1 3.3300 3.3300   10.8   20.2
+localhost Linux 4.9.0-1 3.3300 3.3300   10.8   20.2
+localhost Linux 4.9.0-1 3.3300 3.3300   10.8   20.2
+
+Basic double operations - times in nanoseconds - smaller is better
+------------------------------------------------------------------
+Host                 OS  double double double double
+                         add    mul    div    bogo
+--------- ------------- ------  ------ ------ ------ 
+localhost Linux 4.9.0-1 3.3300 3.3300   18.3   28.6
+localhost Linux 4.9.0-1 3.3300 3.3300   18.3   27.6
+localhost Linux 4.9.0-1 3.3300 3.3300   18.3   28.6
+localhost Linux 4.9.0-1 3.3300 3.4400   18.3   27.7
+localhost Linux 4.9.0-1 3.3300 3.3300   18.3   27.6
+localhost Linux 4.9.0-1 3.3300 3.3300   18.3   27.7
+localhost Linux 4.9.0-1 3.3300 3.3300   18.3   27.7
+localhost Linux 4.9.0-1 3.3300 3.3300   18.3   27.6
+localhost Linux 4.9.0-1 3.3300 3.3300   18.3   27.6
+localhost Linux 4.9.0-1 3.4400 3.3300   18.3   27.7
+
+Context switching - times in microseconds - smaller is better
+-------------------------------------------------------------------------
+Host                 OS  2p/0K 2p/16K 2p/64K 8p/16K 8p/64K 16p/16K 16p/64K
+                         ctxsw  ctxsw  ctxsw ctxsw  ctxsw   ctxsw   ctxsw
+--------- ------------- ------ ------ ------ ------ ------ ------- -------
+localhost Linux 4.9.0-1   14.4 6.8600 7.7200   34.0 9.5500    20.1    31.0
+localhost Linux 4.9.0-1 6.1000 8.4300 6.0800 8.3400 8.3400    48.8    39.0
+localhost Linux 4.9.0-1   11.7 6.6500   92.7   51.8   10.2    28.4    28.1
+localhost Linux 4.9.0-1   11.6  110.4 5.8100 7.7000 9.1000 6.79000    36.7
+localhost Linux 4.9.0-1   14.4 6.9100 7.8200   52.7   13.8 8.37000    20.4
+localhost Linux 4.9.0-1 6.0100 6.5200 5.8900 7.2800 7.6700    42.5    32.9
+localhost Linux 4.9.0-1   14.4 6.4700 5.8200 7.5300 9.4000 7.83000    49.7
+localhost Linux 4.9.0-1   14.4 5.9400 5.8000   54.3 8.7900    18.3    55.2
+localhost Linux 4.9.0-1   14.4 6.7300 5.9400   37.5   10.3    63.9    21.5
+localhost Linux 4.9.0-1 5.9700 6.4400   96.7 8.3300   70.4 7.91000    41.1
+
+*Local* Communication latencies in microseconds - smaller is better
+---------------------------------------------------------------------
+Host                 OS 2p/0K  Pipe AF     UDP  RPC/   TCP  RPC/ TCP
+                        ctxsw       UNIX         UDP         TCP conn
+--------- ------------- ----- ----- ---- ----- ----- ----- ----- ----
+localhost Linux 4.9.0-1  14.4  16.8 27.3  61.7        50.7       149.
+localhost Linux 4.9.0-1 6.100  16.6 28.2  32.7        50.7       150.
+localhost Linux 4.9.0-1  11.7  43.3 22.8  38.8        47.3        92.
+localhost Linux 4.9.0-1  11.6  16.4 30.4  59.0        47.9        88.
+localhost Linux 4.9.0-1  14.4  16.6 22.8  33.0        46.4        88.
+localhost Linux 4.9.0-1 6.010  16.0 22.7  34.5        51.5        88.
+localhost Linux 4.9.0-1  14.4  16.6 22.8  33.0        52.4        87.
+localhost Linux 4.9.0-1  14.4  34.2 29.9  33.4        50.3       149.
+localhost Linux 4.9.0-1  14.4  16.9 29.3  35.4        52.1       149.
+localhost Linux 4.9.0-1 5.970  83.4 29.0  36.4        53.7        83.
+
+*Remote* Communication latencies in microseconds - smaller is better
+---------------------------------------------------------------------
+Host                 OS   UDP  RPC/  TCP   RPC/ TCP
+                               UDP         TCP  conn
+--------- ------------- ----- ----- ----- ----- ----
+localhost Linux 4.9.0-1                             
+localhost Linux 4.9.0-1                             
+localhost Linux 4.9.0-1                             
+localhost Linux 4.9.0-1                             
+localhost Linux 4.9.0-1                             
+localhost Linux 4.9.0-1                             
+localhost Linux 4.9.0-1                             
+localhost Linux 4.9.0-1                             
+localhost Linux 4.9.0-1                             
+localhost Linux 4.9.0-1                             
+
+File & VM system latencies in microseconds - smaller is better
+-------------------------------------------------------------------------------
+Host                 OS   0K File      10K File     Mmap    Prot   Page   100fd
+                        Create Delete Create Delete Latency Fault  Fault  selct
+--------- ------------- ------ ------ ------ ------ ------- ----- ------- -----
+localhost Linux 4.9.0-1   34.3   27.8   73.9   45.1   31.0K 0.265 1.46930 5.692
+localhost Linux 4.9.0-1   34.0   26.8   73.8   47.0   31.2K 0.333 1.46610 5.704
+localhost Linux 4.9.0-1   34.1   26.0   73.8   45.8   31.1K 0.316 1.46260 5.698
+localhost Linux 4.9.0-1   34.3   26.4   74.1   45.9   30.9K 0.302 1.46370 5.701
+localhost Linux 4.9.0-1   33.9   26.1   73.9   45.2   30.9K 0.279 1.45710 5.699
+localhost Linux 4.9.0-1   36.1   25.8   75.0   45.2   32.0K 0.268 1.46810 5.696
+localhost Linux 4.9.0-1   34.1   25.8   73.6   46.1   30.4K 0.221 1.46230 5.706
+localhost Linux 4.9.0-1   33.9   25.3   74.7   45.0   30.3K 0.264 1.47100 5.700
+localhost Linux 4.9.0-1   34.0   25.9   74.3   45.2   30.3K 0.252 1.46510 5.723
+localhost Linux 4.9.0-1   35.4   26.2   73.5   45.2   30.5K 0.277 1.46540 5.723
+
+*Local* Communication bandwidths in MB/s - bigger is better
+-----------------------------------------------------------------------------
+Host                OS  Pipe AF    TCP  File   Mmap  Bcopy  Bcopy  Mem   Mem
+                             UNIX      reread reread (libc) (hand) read write
+--------- ------------- ---- ---- ---- ------ ------ ------ ------ ---- -----
+localhost Linux 4.9.0-1 925. 1802 21.4  970.9 1727.2 1955.5 1649.8 1783 4723.
+localhost Linux 4.9.0-1 831. 1577 21.4  967.9 1732.3 1897.2 1550.8 1774 4731.
+localhost Linux 4.9.0-1 989. 1727 929.  969.1 1721.8 1869.8 1561.2 1774 4725.
+localhost Linux 4.9.0-1 943. 1851 21.4  973.6 1730.8 1877.9 1564.1 1778 4731.
+localhost Linux 4.9.0-1 993. 1547 21.4  971.4 1717.6 1868.1 1573.2 1760 4725.
+localhost Linux 4.9.0-1 944. 1749 21.4  920.3 1732.3 1941.5 1625.8 1781 4723.
+localhost Linux 4.9.0-1 972. 1475 21.4  973.5 1729.4 1906.3 1551.4 1777 4724.
+localhost Linux 4.9.0-1 923. 1673 1117  920.5 1714.6 1775.5 1561.0 1778 4575.
+localhost Linux 4.9.0-1 876. 1521 21.4  967.3 1703.8 1893.4 1539.6 1786 4726.
+localhost Linux 4.9.0-1 910. 1555 21.4  921.9 1707.6 1875.7 1532.0 1759 4730.
+
+Memory latencies in nanoseconds - smaller is better
+    (WARNING - may not be correct, check graphs)
+------------------------------------------------------------------------------
+Host                 OS   Mhz   L1 $   L2 $    Main mem    Rand mem    Guesses
+--------- -------------   ---   ----   ----    --------    --------    -------
+localhost Linux 4.9.0-1  1200 2.5140 6.5390        25.0       189.9
+localhost Linux 4.9.0-1  1200 2.5150 6.5510        24.7       189.8
+localhost Linux 4.9.0-1  1200 2.5140 6.5630        24.9       189.2
+localhost Linux 4.9.0-1  1200 2.5140 6.5680        24.7       189.7
+localhost Linux 4.9.0-1  1200 2.5140 6.5330        24.8       189.0
+localhost Linux 4.9.0-1  1200 2.5140 6.5460        24.8       190.4
+localhost Linux 4.9.0-1  1200 2.5140 6.5390        24.9       190.3
+localhost Linux 4.9.0-1  1200 2.5140 6.5390        24.9       190.1
+localhost Linux 4.9.0-1  1200 2.5140 6.5410        24.8       190.1
+localhost Linux 4.9.0-1  1200 2.5140 6.5370        24.9       189.7
+make[1]: Leaving directory `/home/bamvor/works/source/testsuite/lmbench/lmbench-3.0-a9/results'
