@@ -1,0 +1,42 @@
+The test result:
+['ILP32_enable_aarch64/']
+The test base:
+['ILP32_unmerged_aarch64']
+Original numbers:
+{'462.libquantum': 10.9, '400.perlbench': 4.31, '401.bzip2': 2.63, '429.mcf': 2.01, '464.h264ref': 7.33, '473.astar': 2.76, '458.sjeng': 4.62, '403.gcc': 4.0, '456.hmmer': 4.05, '483.xalancbmk': 3.86, '445.gobmk': 4.8}
+{'462.libquantum': 11.2, '400.perlbench': 4.32, '401.bzip2': 2.64, '429.mcf': 2.08, '464.h264ref': 7.06, '473.astar': 2.74, '458.sjeng': 4.53, '403.gcc': 4.01, '456.hmmer': 4.04, '483.xalancbmk': 3.77, '445.gobmk': 4.74}
+
+Diff:
+['ILP32_enable_aarch64/']
+   400.perlbench: -0.23%
+       401.bzip2: -0.38%
+         403.gcc: -0.25%
+         429.mcf: -3.37%
+       445.gobmk:  1.27%
+       456.hmmer:  0.25%
+       458.sjeng:  1.99%
+  462.libquantum: -2.68%
+     464.h264ref:  3.82%
+       473.astar:  0.73%
+   483.xalancbmk:  2.39%
+The test result:
+['ILP32_disable_aarch64']
+The test base:
+['ILP32_unmerged_aarch64']
+Original numbers:
+{'462.libquantum': 11.0, '400.perlbench': 4.2, '401.bzip2': 2.61, '429.mcf': 2.07, '464.h264ref': 7.25, '473.astar': 2.76, '458.sjeng': 4.53, '403.gcc': 4.01, '456.hmmer': 4.05, '483.xalancbmk': 3.77, '445.gobmk': 4.78}
+{'462.libquantum': 11.2, '400.perlbench': 4.32, '401.bzip2': 2.64, '429.mcf': 2.08, '464.h264ref': 7.06, '473.astar': 2.74, '458.sjeng': 4.53, '403.gcc': 4.01, '456.hmmer': 4.04, '483.xalancbmk': 3.77, '445.gobmk': 4.74}
+
+Diff:
+['ILP32_disable_aarch64']
+   400.perlbench: -2.78%
+       401.bzip2: -1.14%
+         403.gcc: 0.00%
+         429.mcf: -0.48%
+       445.gobmk:  0.84%
+       456.hmmer:  0.25%
+       458.sjeng: 0.00%
+  462.libquantum: -1.79%
+     464.h264ref:  2.69%
+       473.astar:  0.73%
+   483.xalancbmk: 0.00%

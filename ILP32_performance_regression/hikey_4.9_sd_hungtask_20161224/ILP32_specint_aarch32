@@ -1,0 +1,42 @@
+The test result:
+['ILP32_enable_aarch32/CINT2006.014.ref.txt']
+The test base:
+['ILP32_unmerged_aarch32/CINT2006.022.ref.txt']
+Original numbers:
+{'462.libquantum': 8.07, '400.perlbench': 4.35, '401.bzip2': 2.61, '429.mcf': 2.64, '464.h264ref': 7.14, '473.astar': 2.98, '458.sjeng': 4.15, '403.gcc': 3.85, '456.hmmer': 3.0, '483.xalancbmk': 4.22, '445.gobmk': 4.7}
+{'462.libquantum': 8.13, '400.perlbench': 4.32, '401.bzip2': 2.63, '429.mcf': 2.46, '464.h264ref': 7.11, '473.astar': 2.95, '458.sjeng': 4.29, '403.gcc': 3.84, '456.hmmer': 3.01, '483.xalancbmk': 4.23, '445.gobmk': 4.71}
+
+Diff:
+['ILP32_enable_aarch32/CINT2006.014.ref.txt']
+   400.perlbench:  0.69%
+       401.bzip2: -0.76%
+         403.gcc:  0.26%
+         429.mcf:  7.32%
+       445.gobmk: -0.21%
+       456.hmmer: -0.33%
+       458.sjeng: -3.26%
+  462.libquantum: -0.74%
+     464.h264ref:  0.42%
+       473.astar:  1.02%
+   483.xalancbmk: -0.24%
+The test result:
+['ILP32_disable_aarch32/CINT2006.016.ref.txt']
+The test base:
+['ILP32_unmerged_aarch32/CINT2006.022.ref.txt']
+Original numbers:
+{'462.libquantum': 8.07, '400.perlbench': 4.35, '401.bzip2': 2.63, '429.mcf': 2.58, '464.h264ref': 7.15, '473.astar': 2.96, '458.sjeng': 4.3, '403.gcc': 3.86, '456.hmmer': 2.96, '483.xalancbmk': 4.14, '445.gobmk': 4.7}
+{'462.libquantum': 8.13, '400.perlbench': 4.32, '401.bzip2': 2.63, '429.mcf': 2.46, '464.h264ref': 7.11, '473.astar': 2.95, '458.sjeng': 4.29, '403.gcc': 3.84, '456.hmmer': 3.01, '483.xalancbmk': 4.23, '445.gobmk': 4.71}
+
+Diff:
+['ILP32_disable_aarch32/CINT2006.016.ref.txt']
+   400.perlbench:  0.69%
+       401.bzip2: 0.00%
+         403.gcc:  0.52%
+         429.mcf:  4.88%
+       445.gobmk: -0.21%
+       456.hmmer: -1.66%
+       458.sjeng:  0.23%
+  462.libquantum: -0.74%
+     464.h264ref:  0.56%
+       473.astar:  0.34%
+   483.xalancbmk: -2.13%
