@@ -1,0 +1,386 @@
+runspec v6674 started at Wed Jan 18 23:25:57 2017 on "localhost"
+runspec is: /home/bamvor/CPU2006/bin/runspec
+runspec: runspec -c linaro_aarch64.cfg --nobuild --size=ref -n 1 --noreportable --tune=base perlbench bzip2 mcf gobmk sjeng libquantum h264ref xalancbmk
+toolset: linux-aarch64
+
+Locating benchmarks...found 31 benchmarks in 6 benchsets.
+Reading config file '/home/bamvor/CPU2006/config/linaro_aarch64.cfg'
+
+1484753160.46: Verbosity = 5
+1484753160.46: Action    = validate
+1484753160.46: Tune      = base
+1484753160.46: Ext       = aarch64
+1484753160.46: Size      = ref
+1484753160.46: Machine   = default
+1484753160.46: benchmarks= 400.perlbench,401.bzip2,429.mcf,445.gobmk,458.sjeng,462.libquantum,464.h264ref,483.xalancbmk
+1484753160.46: outputs   = asc,csv,config
+1484753160.46: username  = root
+1484753160.46: Benchmarks selected: 400.perlbench, 401.bzip2, 429.mcf, 445.gobmk, 458.sjeng, 462.libquantum, 464.h264ref, 483.xalancbmk
+1484753160.57: Compiling Binaries
+
+1484753160.57: ------------------------------------------------------------------------
+1484753161.24:   Up to date 400.perlbench base aarch64 default
+
+1484753161.24: ------------------------------------------------------------------------
+1484753161.81:   Up to date 401.bzip2 base aarch64 default
+
+1484753161.81: ------------------------------------------------------------------------
+1484753162.39:   Up to date 429.mcf base aarch64 default
+
+1484753162.39: ------------------------------------------------------------------------
+1484753163.08:   Up to date 445.gobmk base aarch64 default
+
+1484753163.08: ------------------------------------------------------------------------
+1484753163.66:   Up to date 458.sjeng base aarch64 default
+
+1484753163.66: ------------------------------------------------------------------------
+1484753164.26:   Up to date 462.libquantum base aarch64 default
+
+1484753164.26: ------------------------------------------------------------------------
+1484753164.89:   Up to date 464.h264ref base aarch64 default
+
+1484753164.89: ------------------------------------------------------------------------
+1484753165.91:   Up to date 483.xalancbmk base aarch64 default
+
+
+1484753165.91: Setting Up Run Directories
+1484753165.93:   Setting up 400.perlbench ref base aarch64 default: 
+1484753165.93: Notice: Unusable path detected in run directory list file.
+1484753165.93:   /home/bamvor/CPU2006/benchspec/CPU2006/400.perlbench/run/list
+1484753165.93: references one or more paths which will be ignored, because they are
+1484753165.93: not subdirectories of this run directory.  This condition may be a
+1484753165.93: result of having moved your SPEC benchmark tree.  If that's what happened,
+1484753165.93: and if you don't need the old run directories, you can just remove
+1484753165.93: them, along with the list file.  (Usually it's safe to delete old
+1484753165.93: run directories, as they are automatically re-created when needed.)
+
+
+1484753177.85: existing (run_base_ref_aarch64.0005)
+1484753177.85(0.02s):   Setting up 401.bzip2 ref base aarch64 default: 
+1484753177.87: Notice: Unusable path detected in run directory list file.
+1484753177.87:   /home/bamvor/CPU2006/benchspec/CPU2006/401.bzip2/run/list
+1484753177.87: references one or more paths which will be ignored, because they are
+1484753177.87: not subdirectories of this run directory.  This condition may be a
+1484753177.87: result of having moved your SPEC benchmark tree.  If that's what happened,
+1484753177.87: and if you don't need the old run directories, you can just remove
+1484753177.87: them, along with the list file.  (Usually it's safe to delete old
+1484753177.87: run directories, as they are automatically re-created when needed.)
+
+
+1484753181.42: created (run_base_ref_aarch64.0005)
+1484753181.42(0.02s):   Setting up 429.mcf ref base aarch64 default: 
+1484753181.44: Notice: Unusable path detected in run directory list file.
+1484753181.44:   /home/bamvor/CPU2006/benchspec/CPU2006/429.mcf/run/list
+1484753181.44: references one or more paths which will be ignored, because they are
+1484753181.44: not subdirectories of this run directory.  This condition may be a
+1484753181.44: result of having moved your SPEC benchmark tree.  If that's what happened,
+1484753181.44: and if you don't need the old run directories, you can just remove
+1484753181.44: them, along with the list file.  (Usually it's safe to delete old
+1484753181.44: run directories, as they are automatically re-created when needed.)
+
+
+1484753181.79: existing (run_base_ref_aarch64.0004)
+1484753181.79(0.02s):   Setting up 445.gobmk ref base aarch64 default: 
+1484753181.81: Notice: Unusable path detected in run directory list file.
+1484753181.81:   /home/bamvor/CPU2006/benchspec/CPU2006/445.gobmk/run/list
+1484753181.81: references one or more paths which will be ignored, because they are
+1484753181.81: not subdirectories of this run directory.  This condition may be a
+1484753181.81: result of having moved your SPEC benchmark tree.  If that's what happened,
+1484753181.81: and if you don't need the old run directories, you can just remove
+1484753181.81: them, along with the list file.  (Usually it's safe to delete old
+1484753181.81: run directories, as they are automatically re-created when needed.)
+
+
+1484753188.29: existing (run_base_ref_aarch64.0004)
+1484753188.30(0.71s):   Setting up 458.sjeng ref base aarch64 default: 
+1484753189.01: Notice: Unusable path detected in run directory list file.
+1484753189.01:   /home/bamvor/CPU2006/benchspec/CPU2006/458.sjeng/run/list
+1484753189.01: references one or more paths which will be ignored, because they are
+1484753189.01: not subdirectories of this run directory.  This condition may be a
+1484753189.01: result of having moved your SPEC benchmark tree.  If that's what happened,
+1484753189.01: and if you don't need the old run directories, you can just remove
+1484753189.01: them, along with the list file.  (Usually it's safe to delete old
+1484753189.01: run directories, as they are automatically re-created when needed.)
+
+
+1484753189.13: existing (run_base_ref_aarch64.0004)
+1484753189.14(0.04s):   Setting up 462.libquantum ref base aarch64 default: 
+1484753189.18: Notice: Unusable path detected in run directory list file.
+1484753189.18:   /home/bamvor/CPU2006/benchspec/CPU2006/462.libquantum/run/list
+1484753189.18: references one or more paths which will be ignored, because they are
+1484753189.18: not subdirectories of this run directory.  This condition may be a
+1484753189.18: result of having moved your SPEC benchmark tree.  If that's what happened,
+1484753189.18: and if you don't need the old run directories, you can just remove
+1484753189.18: them, along with the list file.  (Usually it's safe to delete old
+1484753189.18: run directories, as they are automatically re-created when needed.)
+
+
+1484753189.31: existing (run_base_ref_aarch64.0004)
+1484753189.32(0.81s):   Setting up 464.h264ref ref base aarch64 default: 
+1484753190.13: Notice: Unusable path detected in run directory list file.
+1484753190.13:   /home/bamvor/CPU2006/benchspec/CPU2006/464.h264ref/run/list
+1484753190.13: references one or more paths which will be ignored, because they are
+1484753190.13: not subdirectories of this run directory.  This condition may be a
+1484753190.13: result of having moved your SPEC benchmark tree.  If that's what happened,
+1484753190.13: and if you don't need the old run directories, you can just remove
+1484753190.13: them, along with the list file.  (Usually it's safe to delete old
+1484753190.13: run directories, as they are automatically re-created when needed.)
+
+
+1484753196.44: existing (run_base_ref_aarch64.0004)
+1484753196.45(0.37s):   Setting up 483.xalancbmk ref base aarch64 default: 
+1484753196.82: Notice: Unusable path detected in run directory list file.
+1484753196.82:   /home/bamvor/CPU2006/benchspec/CPU2006/483.xalancbmk/run/list
+1484753196.82: references one or more paths which will be ignored, because they are
+1484753196.82: not subdirectories of this run directory.  This condition may be a
+1484753196.82: result of having moved your SPEC benchmark tree.  If that's what happened,
+1484753196.82: and if you don't need the old run directories, you can just remove
+1484753196.82: them, along with the list file.  (Usually it's safe to delete old
+1484753196.82: run directories, as they are automatically re-created when needed.)
+
+
+1484753200.13: existing (run_base_ref_aarch64.0004)
+
+1484753200.13: -----------------------------------
+1484753200.13: Running Benchmarks
+
+1484753200.14: -----------------------------------
+1484753201.14:   Running 400.perlbench ref base aarch64 default
+1484753201.59: Commands to run:
+1484753201.59:     -C /home/bamvor/CPU2006/benchspec/CPU2006/400.perlbench/run/run_base_ref_aarch64.0005
+1484753201.61:     -o checkspam.2500.5.25.11.150.1.1.1.1.out -e checkspam.2500.5.25.11.150.1.1.1.1.err ../run_base_ref_aarch64.0005/perlbench_base.aarch64 -I./lib checkspam.pl 2500 5 25 11 150 1 1 1 1 (timed)
+1484753201.61:     -o diffmail.4.800.10.17.19.300.out -e diffmail.4.800.10.17.19.300.err ../run_base_ref_aarch64.0005/perlbench_base.aarch64 -I./lib diffmail.pl 4 800 10 17 19 300 (timed)
+1484753201.61:     -o splitmail.1600.12.26.16.4500.out -e splitmail.1600.12.26.16.4500.err ../run_base_ref_aarch64.0005/perlbench_base.aarch64 -I./lib splitmail.pl 1600 12 26 16 4500 (timed)
+1484753201.63: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/400.perlbench/run/run_base_ref_aarch64.0005 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484753201.63: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/400.perlbench/run/run_base_ref_aarch64.0005 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q'
+1484753201.63: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/400.perlbench/run/run_base_ref_aarch64.0005 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484753201.63: Start command: Wed Jan 18 23:26:41 2017 (1484753201)
+1484755465.26: Stop command: Thu Jan 19 00:04:25 2017 (1484755465)
+1484755465.26: Elapsed time for command: 00:37:44 (2264)
+1484755465.34: Workload elapsed time (0:1) = 1198.270009 seconds
+1484755465.34: Workload elapsed time (0:2) = 415.752149 seconds
+1484755465.34: Workload elapsed time (0:3) = 641.583262 seconds
+1484755465.35: Copy 0 of 400.perlbench (base ref) run 1 finished at Thu Jan 19 00:04:17 2017.  Total elapsed time: 2255.60542
+1484755465.35: comparing files in '/home/bamvor/CPU2006/benchspec/CPU2006/400.perlbench/run/run_base_ref_aarch64.0005'
+1484755465.36: comparing 'checkspam.2500.5.25.11.150.1.1.1.1.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484755465.36: comparing 'diffmail.4.800.10.17.19.300.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484755465.36: comparing 'splitmail.1600.12.26.16.4500.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484755465.37: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/400.perlbench/run/run_base_ref_aarch64.0005 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484755465.37: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/400.perlbench/run/run_base_ref_aarch64.0005 -c 1 -e compare.err -o compare.stdout -f compare.cmd'
+1484755465.37: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/400.perlbench/run/run_base_ref_aarch64.0005 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484755465.37: Start command: Thu Jan 19 00:04:25 2017 (1484755465)
+1484755471.70: Stop command: Thu Jan 19 00:04:31 2017 (1484755471)
+1484755471.70: Elapsed time for command: 00:00:06 (6)
+1484755471.71: Benchmark Times:
+1484755471.71:   Start:    Wed Jan 18 23:26:41 2017 (1484753201)
+1484755471.71:   Stop:     Thu Jan 19 00:04:25 2017 (1484755465)
+1484755471.71:   Elapsed:  00:37:44 (2264)
+1484755471.71:   Reported: 2255 605725000 2255.605725
+1484755471.71:  Success 400.perlbench base ref ratio=4.33, runtime=2255.605725, power=0.00w, temp=0.00 deg, humidity=0.00%
+
+1484755471.71: -----------------------------------
+1484755471.86:   Running 401.bzip2 ref base aarch64 default
+1484755471.91: Commands to run:
+1484755471.91:     -C /home/bamvor/CPU2006/benchspec/CPU2006/401.bzip2/run/run_base_ref_aarch64.0005
+1484755471.91:     -o input.source.out -e input.source.err ../run_base_ref_aarch64.0005/bzip2_base.aarch64 input.source 280 (timed)
+1484755471.91:     -o chicken.jpg.out -e chicken.jpg.err ../run_base_ref_aarch64.0005/bzip2_base.aarch64 chicken.jpg 30 (timed)
+1484755471.91:     -o liberty.jpg.out -e liberty.jpg.err ../run_base_ref_aarch64.0005/bzip2_base.aarch64 liberty.jpg 30 (timed)
+1484755471.91:     -o input.program.out -e input.program.err ../run_base_ref_aarch64.0005/bzip2_base.aarch64 input.program 280 (timed)
+1484755471.91:     -o text.html.out -e text.html.err ../run_base_ref_aarch64.0005/bzip2_base.aarch64 text.html 280 (timed)
+1484755471.91:     -o input.combined.out -e input.combined.err ../run_base_ref_aarch64.0005/bzip2_base.aarch64 input.combined 200 (timed)
+1484755471.93: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/401.bzip2/run/run_base_ref_aarch64.0005 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484755471.93: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/401.bzip2/run/run_base_ref_aarch64.0005 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q'
+1484755471.93: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/401.bzip2/run/run_base_ref_aarch64.0005 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484755471.93: Start command: Thu Jan 19 00:04:31 2017 (1484755471)
+1484759146.02: Stop command: Thu Jan 19 01:05:46 2017 (1484759146)
+1484759146.02: Elapsed time for command: 01:01:15 (3675)
+1484759146.11: Workload elapsed time (0:1) = 631.141 seconds
+1484759146.11: Workload elapsed time (0:2) = 269.340113 seconds
+1484759146.11: Workload elapsed time (0:3) = 655.280489 seconds
+1484759146.11: Workload elapsed time (0:4) = 635.65 seconds
+1484759146.11: Workload elapsed time (0:5) = 962.187246 seconds
+1484759146.11: Workload elapsed time (0:6) = 512.461557 seconds
+1484759146.11: Copy 0 of 401.bzip2 (base ref) run 1 finished at Thu Jan 19 01:05:38 2017.  Total elapsed time: 3666.060405
+1484759146.12: comparing files in '/home/bamvor/CPU2006/benchspec/CPU2006/401.bzip2/run/run_base_ref_aarch64.0005'
+1484759146.13: comparing 'chicken.jpg.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484759146.13: comparing 'input.combined.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484759146.13: comparing 'input.program.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484759146.13: comparing 'input.source.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484759146.13: comparing 'liberty.jpg.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484759146.14: comparing 'text.html.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484759146.14: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/401.bzip2/run/run_base_ref_aarch64.0005 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484759146.14: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/401.bzip2/run/run_base_ref_aarch64.0005 -c 1 -e compare.err -o compare.stdout -f compare.cmd'
+1484759146.14: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/401.bzip2/run/run_base_ref_aarch64.0005 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484759146.14: Start command: Thu Jan 19 01:05:46 2017 (1484759146)
+1484759158.31: Stop command: Thu Jan 19 01:05:58 2017 (1484759158)
+1484759158.31: Elapsed time for command: 00:00:12 (12)
+1484759158.32: Benchmark Times:
+1484759158.32:   Start:    Thu Jan 19 00:04:31 2017 (1484755471)
+1484759158.32:   Stop:     Thu Jan 19 01:05:46 2017 (1484759146)
+1484759158.32:   Elapsed:  01:01:15 (3675)
+1484759158.32:   Reported: 3666 60837000 3666.060837
+1484759158.32:  Success 401.bzip2 base ref ratio=2.63, runtime=3666.060837, power=0.00w, temp=0.00 deg, humidity=0.00%
+
+1484759158.32: -----------------------------------
+1484759158.42:   Running 429.mcf ref base aarch64 default
+1484759158.46: Commands to run:
+1484759158.46:     -C /home/bamvor/CPU2006/benchspec/CPU2006/429.mcf/run/run_base_ref_aarch64.0004
+1484759158.46:     -o inp.out -e inp.err ../run_base_ref_aarch64.0004/mcf_base.aarch64 inp.in (timed)
+1484759158.48: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/429.mcf/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484759158.48: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/429.mcf/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q'
+1484759158.48: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/429.mcf/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484759158.48: Start command: Thu Jan 19 01:05:58 2017 (1484759158)
+1484763827.53: Stop command: Thu Jan 19 02:23:47 2017 (1484763827)
+1484763827.54: Elapsed time for command: 01:17:49 (4669)
+1484763827.63: Workload elapsed time (0:1) = 4661.003953 seconds
+1484763827.64: Copy 0 of 429.mcf (base ref) run 1 finished at Thu Jan 19 02:23:39 2017.  Total elapsed time: 4661.003953
+1484763827.64: comparing files in '/home/bamvor/CPU2006/benchspec/CPU2006/429.mcf/run/run_base_ref_aarch64.0004'
+1484763827.66: comparing 'inp.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484763827.66: comparing 'mcf.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484763827.66: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/429.mcf/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484763827.67: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/429.mcf/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd'
+1484763827.67: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/429.mcf/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484763827.67: Start command: Thu Jan 19 02:23:47 2017 (1484763827)
+1484763831.37: Stop command: Thu Jan 19 02:23:51 2017 (1484763831)
+1484763831.37: Elapsed time for command: 00:00:04 (4)
+1484763831.38: Benchmark Times:
+1484763831.38:   Start:    Thu Jan 19 01:05:58 2017 (1484759158)
+1484763831.38:   Stop:     Thu Jan 19 02:23:47 2017 (1484763827)
+1484763831.38:   Elapsed:  01:17:49 (4669)
+1484763831.38:   Reported: 4661 6265000 4661.006265
+1484763831.38:  Success 429.mcf base ref ratio=1.96, runtime=4661.006265, power=0.00w, temp=0.00 deg, humidity=0.00%
+
+1484763831.38: -----------------------------------
+1484763832.80:   Running 445.gobmk ref base aarch64 default
+1484763833.31: Commands to run:
+1484763833.31:     -C /home/bamvor/CPU2006/benchspec/CPU2006/445.gobmk/run/run_base_ref_aarch64.0004
+1484763833.31:     -i 13x13.tst -o 13x13.out -e 13x13.err ../run_base_ref_aarch64.0004/gobmk_base.aarch64 --quiet --mode gtp (timed)
+1484763833.31:     -i nngs.tst -o nngs.out -e nngs.err ../run_base_ref_aarch64.0004/gobmk_base.aarch64 --quiet --mode gtp (timed)
+1484763833.31:     -i score2.tst -o score2.out -e score2.err ../run_base_ref_aarch64.0004/gobmk_base.aarch64 --quiet --mode gtp (timed)
+1484763833.31:     -i trevorc.tst -o trevorc.out -e trevorc.err ../run_base_ref_aarch64.0004/gobmk_base.aarch64 --quiet --mode gtp (timed)
+1484763833.31:     -i trevord.tst -o trevord.out -e trevord.err ../run_base_ref_aarch64.0004/gobmk_base.aarch64 --quiet --mode gtp (timed)
+1484763833.33: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/445.gobmk/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484763833.33: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/445.gobmk/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q'
+1484763833.33: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/445.gobmk/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484763833.33: Start command: Thu Jan 19 02:23:53 2017 (1484763833)
+1484766096.66: Stop command: Thu Jan 19 03:01:36 2017 (1484766096)
+1484766096.66: Elapsed time for command: 00:37:43 (2263)
+1484766096.75: Workload elapsed time (0:1) = 309.651179 seconds
+1484766096.75: Workload elapsed time (0:2) = 795.861389 seconds
+1484766096.75: Workload elapsed time (0:3) = 404.357767 seconds
+1484766096.75: Workload elapsed time (0:4) = 307.022407 seconds
+1484766096.75: Workload elapsed time (0:5) = 438.407118 seconds
+1484766096.75: Copy 0 of 445.gobmk (base ref) run 1 finished at Thu Jan 19 03:01:28 2017.  Total elapsed time: 2255.29986
+1484766096.76: comparing files in '/home/bamvor/CPU2006/benchspec/CPU2006/445.gobmk/run/run_base_ref_aarch64.0004'
+1484766096.76: comparing '13x13.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484766096.77: comparing 'nngs.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484766096.77: comparing 'score2.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484766096.77: comparing 'trevorc.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484766096.77: comparing 'trevord.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484766096.78: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/445.gobmk/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484766096.78: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/445.gobmk/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd'
+1484766096.78: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/445.gobmk/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484766096.78: Start command: Thu Jan 19 03:01:36 2017 (1484766096)
+1484766104.31: Stop command: Thu Jan 19 03:01:44 2017 (1484766104)
+1484766104.31: Elapsed time for command: 00:00:08 (8)
+1484766104.31: Benchmark Times:
+1484766104.31:   Start:    Thu Jan 19 02:23:53 2017 (1484763833)
+1484766104.31:   Stop:     Thu Jan 19 03:01:36 2017 (1484766096)
+1484766104.31:   Elapsed:  00:37:43 (2263)
+1484766104.31:   Reported: 2255 300293000 2255.300293
+1484766104.31:  Success 445.gobmk base ref ratio=4.65, runtime=2255.300293, power=0.00w, temp=0.00 deg, humidity=0.00%
+
+1484766104.31: -----------------------------------
+1484766104.53:   Running 458.sjeng ref base aarch64 default
+1484766104.57: Commands to run:
+1484766104.57:     -C /home/bamvor/CPU2006/benchspec/CPU2006/458.sjeng/run/run_base_ref_aarch64.0004
+1484766104.57:     -o ref.out -e ref.err ../run_base_ref_aarch64.0004/sjeng_base.aarch64 ref.txt (timed)
+1484766104.59: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/458.sjeng/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484766104.59: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/458.sjeng/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q'
+1484766104.59: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/458.sjeng/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484766104.60: Start command: Thu Jan 19 03:01:44 2017 (1484766104)
+1484768674.95: Stop command: Thu Jan 19 03:44:34 2017 (1484768674)
+1484768674.95: Elapsed time for command: 00:42:50 (2570)
+1484768675.04: Workload elapsed time (0:1) = 2562.325778 seconds
+1484768675.04: Copy 0 of 458.sjeng (base ref) run 1 finished at Thu Jan 19 03:44:26 2017.  Total elapsed time: 2562.325778
+1484768675.04: comparing files in '/home/bamvor/CPU2006/benchspec/CPU2006/458.sjeng/run/run_base_ref_aarch64.0004'
+1484768675.05: comparing 'ref.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484768675.05: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/458.sjeng/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484768675.05: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/458.sjeng/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd'
+1484768675.05: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/458.sjeng/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484768675.05: Start command: Thu Jan 19 03:44:35 2017 (1484768675)
+1484768676.78: Stop command: Thu Jan 19 03:44:36 2017 (1484768676)
+1484768676.78: Elapsed time for command: 00:00:01 (1)
+1484768676.78: Benchmark Times:
+1484768676.78:   Start:    Thu Jan 19 03:01:44 2017 (1484766104)
+1484768676.78:   Stop:     Thu Jan 19 03:44:34 2017 (1484768674)
+1484768676.78:   Elapsed:  00:42:50 (2570)
+1484768676.78:   Reported: 2562 325953000 2562.325953
+1484768676.78:  Success 458.sjeng base ref ratio=4.72, runtime=2562.325953, power=0.00w, temp=0.00 deg, humidity=0.00%
+
+1484768676.79: -----------------------------------
+1484768676.99:   Running 462.libquantum ref base aarch64 default
+1484768677.03: Commands to run:
+1484768677.03:     -C /home/bamvor/CPU2006/benchspec/CPU2006/462.libquantum/run/run_base_ref_aarch64.0004
+1484768677.03:     -o ref.out -e ref.err ../run_base_ref_aarch64.0004/libquantum_base.aarch64 1397 8 (timed)
+1484768677.05: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/462.libquantum/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484768677.05: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/462.libquantum/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q'
+1484768677.05: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/462.libquantum/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484768677.05: Start command: Thu Jan 19 03:44:37 2017 (1484768677)
+1484770544.77: Stop command: Thu Jan 19 04:15:44 2017 (1484770544)
+1484770544.77: Elapsed time for command: 00:31:07 (1867)
+1484770544.86: Workload elapsed time (0:1) = 1859.689403 seconds
+1484770544.86: Copy 0 of 462.libquantum (base ref) run 1 finished at Thu Jan 19 04:15:36 2017.  Total elapsed time: 1859.689403
+1484770544.87: comparing files in '/home/bamvor/CPU2006/benchspec/CPU2006/462.libquantum/run/run_base_ref_aarch64.0004'
+1484770544.87: comparing 'ref.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=1, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484770544.88: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/462.libquantum/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484770544.88: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/462.libquantum/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd'
+1484770544.88: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/462.libquantum/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484770544.88: Start command: Thu Jan 19 04:15:44 2017 (1484770544)
+1484770546.60: Stop command: Thu Jan 19 04:15:46 2017 (1484770546)
+1484770546.60: Elapsed time for command: 00:00:02 (2)
+1484770546.61: Benchmark Times:
+1484770546.61:   Start:    Thu Jan 19 03:44:37 2017 (1484768677)
+1484770546.61:   Stop:     Thu Jan 19 04:15:44 2017 (1484770544)
+1484770546.61:   Elapsed:  00:31:07 (1867)
+1484770546.61:   Reported: 1859 689604000 1859.689604
+1484770546.61:  Success 462.libquantum base ref ratio=11.14, runtime=1859.689604, power=0.00w, temp=0.00 deg, humidity=0.00%
+
+1484770546.61: -----------------------------------
+1484770546.86:   Running 464.h264ref ref base aarch64 default
+1484770546.91: Commands to run:
+1484770546.91:     -C /home/bamvor/CPU2006/benchspec/CPU2006/464.h264ref/run/run_base_ref_aarch64.0004
+1484770546.91:     -o foreman_ref_baseline_encodelog.out -e foreman_ref_baseline_encodelog.err ../run_base_ref_aarch64.0004/h264ref_base.aarch64 -d foreman_ref_encoder_baseline.cfg (timed)
+1484770546.91:     -o foreman_ref_main_encodelog.out -e foreman_ref_main_encodelog.err ../run_base_ref_aarch64.0004/h264ref_base.aarch64 -d foreman_ref_encoder_main.cfg (timed)
+1484770546.91:     -o sss_main_encodelog.out -e sss_main_encodelog.err ../run_base_ref_aarch64.0004/h264ref_base.aarch64 -d sss_encoder_main.cfg (timed)
+1484770546.93: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/464.h264ref/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484770546.93: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/464.h264ref/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q'
+1484770546.93: /home/bamvor/CPU2006/bin/specinvoke -d /home/bamvor/CPU2006/benchspec/CPU2006/464.h264ref/run/run_base_ref_aarch64.0004 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484770546.93: Start command: Thu Jan 19 04:15:46 2017 (1484770546)
+1484773589.86: Stop command: Thu Jan 19 05:06:29 2017 (1484773589)
+1484773589.86: Elapsed time for command: 00:50:43 (3043)
+1484773589.95: Workload elapsed time (0:1) = 337.145489 seconds
+1484773589.95: Workload elapsed time (0:2) = 266.627919 seconds
+1484773589.95: Workload elapsed time (0:3) = 2431.126857 seconds
+1484773589.95: Copy 0 of 464.h264ref (base ref) run 1 finished at Thu Jan 19 05:06:21 2017.  Total elapsed time: 3034.900265
+1484773589.96: comparing files in '/home/bamvor/CPU2006/benchspec/CPU2006/464.h264ref/run/run_base_ref_aarch64.0004'
+1484773589.96: comparing 'foreman_ref_baseline_encodelog.out' with abstol=, binary=, calctol=0, cw=1, floatcompare=1, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484773589.97: comparing 'foreman_ref_baseline_leakybucketparam.cfg' with abstol=, binary=1, calctol=0, cw=1, floatcompare=1, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484773589.97: comparing 'foreman_ref_main_encodelog.out' with abstol=, binary=, calctol=0, cw=1, floatcompare=1, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484773589.97: comparing 'foreman_ref_main_leakybucketparam.cfg' with abstol=, binary=1, calctol=0, cw=1, floatcompare=1, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484773589.97: comparing 'sss_main_encodelog.out' with abstol=, binary=, calctol=0, cw=1, floatcompare=1, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484773589.98: comparing 'sss_main_leakybucketparam.cfg' with abstol=, binary=1, calctol=0, cw=1, floatcompare=1, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484773589.98: Specinvoke: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/464.h264ref/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484773589.98: Issuing command '/home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/464.h264ref/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd'
+1484773589.98: /home/bamvor/CPU2006/bin/specinvoke -E -d /home/bamvor/CPU2006/benchspec/CPU2006/464.h264ref/run/run_base_ref_aarch64.0004 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484773589.98: Start command: Thu Jan 19 05:06:29 2017 (1484773589)
+1484773602.24: Stop command: Thu Jan 19 05:06:42 2017 (1484773602)
+1484773602.24: Elapsed time for command: 00:00:13 (13)
+1484773602.24: Benchmark Times:
+1484773602.24:   Start:    Thu Jan 19 04:15:46 2017 (1484770546)
+1484773602.24:   Stop:     Thu Jan 19 05:06:29 2017 (1484773589)
+1484773602.24:   Elapsed:  00:50:43 (3043)
+1484773602.24:   Reported: 3034 900537000 3034.900537
+1484773602.25:  Success 464.h264ref base ref ratio=7.29, runtime=3034.900537, power=0.00w, temp=0.00 deg, humidity=0.00%
+
+1484773602.25: -----------------------------------

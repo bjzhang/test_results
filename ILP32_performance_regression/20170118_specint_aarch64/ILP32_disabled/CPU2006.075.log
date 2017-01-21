@@ -1,0 +1,98 @@
+runspec v6674 started at Thu Jan 19 10:51:16 2017 on "localhost"
+runspec is: /home/bamvor/works-new/CPU2006/bin/runspec
+runspec: runspec -c linaro_aarch64.cfg --nobuild --size=ref -n 1 --noreportable --tune=base xalancbmk
+toolset: linux-aarch64
+
+Locating benchmarks...found 31 benchmarks in 6 benchsets.
+Reading config file '/home/bamvor/works-new/CPU2006/config/linaro_aarch64.cfg'
+
+1484794279.25: Verbosity = 5
+1484794279.25: Action    = validate
+1484794279.25: Tune      = base
+1484794279.25: Ext       = aarch64
+1484794279.25: Size      = ref
+1484794279.25: Machine   = default
+1484794279.25: benchmarks= 483.xalancbmk
+1484794279.25: outputs   = asc,csv,config
+1484794279.25: username  = root
+1484794279.25: Benchmarks selected: 483.xalancbmk
+1484794279.27: Compiling Binaries
+
+1484794279.27: ------------------------------------------------------------------------
+1484794279.93:   Up to date 483.xalancbmk base aarch64 default
+
+
+1484794279.93: Setting Up Run Directories
+1484794279.95:   Setting up 483.xalancbmk ref base aarch64 default: 
+1484794279.95: Notice: Unusable path detected in run directory list file.
+1484794279.95:   /home/bamvor/works-new/CPU2006/benchspec/CPU2006/483.xalancbmk/run/list
+1484794279.95: references one or more paths which will be ignored, because they are
+1484794279.95: not subdirectories of this run directory.  This condition may be a
+1484794279.95: result of having moved your SPEC benchmark tree.  If that's what happened,
+1484794279.95: and if you don't need the old run directories, you can just remove
+1484794279.95: them, along with the list file.  (Usually it's safe to delete old
+1484794279.95: run directories, as they are automatically re-created when needed.)
+
+
+1484794283.11: existing (run_base_ref_aarch64.0002)
+
+1484794283.11: -----------------------------------
+1484794283.11: Running Benchmarks
+
+1484794283.12: -----------------------------------
+1484794283.88:   Running 483.xalancbmk ref base aarch64 default
+1484794283.91: Commands to run:
+1484794283.91:     -C /home/bamvor/works-new/CPU2006/benchspec/CPU2006/483.xalancbmk/run/run_base_ref_aarch64.0002
+1484794283.92:     -o ref.out -e ref.err ../run_base_ref_aarch64.0002/Xalan_base.aarch64 -v t5.xml xalanc.xsl (timed)
+1484794283.94: Specinvoke: /home/bamvor/works-new/CPU2006/bin/specinvoke -d /home/bamvor/works-new/CPU2006/benchspec/CPU2006/483.xalancbmk/run/run_base_ref_aarch64.0002 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484794283.94: Issuing command '/home/bamvor/works-new/CPU2006/bin/specinvoke -d /home/bamvor/works-new/CPU2006/benchspec/CPU2006/483.xalancbmk/run/run_base_ref_aarch64.0002 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q'
+1484794283.94: /home/bamvor/works-new/CPU2006/bin/specinvoke -d /home/bamvor/works-new/CPU2006/benchspec/CPU2006/483.xalancbmk/run/run_base_ref_aarch64.0002 -e speccmds.err -o speccmds.stdout -f speccmds.cmd -C -q
+1484794283.94: Start command: Thu Jan 19 10:51:23 2017 (1484794283)
+1484796203.40: Stop command: Thu Jan 19 11:23:23 2017 (1484796203)
+1484796203.40: Elapsed time for command: 00:32:00 (1920)
+1484796203.48: Workload elapsed time (0:1) = 1911.443028 seconds
+1484796203.48: Copy 0 of 483.xalancbmk (base ref) run 1 finished at Thu Jan 19 11:23:15 2017.  Total elapsed time: 1911.443028
+1484796203.49: comparing files in '/home/bamvor/works-new/CPU2006/benchspec/CPU2006/483.xalancbmk/run/run_base_ref_aarch64.0002'
+1484796203.49: comparing 'ref.out' with abstol=, binary=, calctol=0, cw=, floatcompare=, ignorecase=, obiwan=, reltol=, skipabstol=, skipobiwan=, skipreltol=, skiptol=
+1484796203.50: Specinvoke: /home/bamvor/works-new/CPU2006/bin/specinvoke -E -d /home/bamvor/works-new/CPU2006/benchspec/CPU2006/483.xalancbmk/run/run_base_ref_aarch64.0002 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484796203.50: Issuing command '/home/bamvor/works-new/CPU2006/bin/specinvoke -E -d /home/bamvor/works-new/CPU2006/benchspec/CPU2006/483.xalancbmk/run/run_base_ref_aarch64.0002 -c 1 -e compare.err -o compare.stdout -f compare.cmd'
+1484796203.50: /home/bamvor/works-new/CPU2006/bin/specinvoke -E -d /home/bamvor/works-new/CPU2006/benchspec/CPU2006/483.xalancbmk/run/run_base_ref_aarch64.0002 -c 1 -e compare.err -o compare.stdout -f compare.cmd
+1484796203.50: Start command: Thu Jan 19 11:23:23 2017 (1484796203)
+1484796210.12: Stop command: Thu Jan 19 11:23:30 2017 (1484796210)
+1484796210.12: Elapsed time for command: 00:00:07 (7)
+1484796210.12: Benchmark Times:
+1484796210.12:   Start:    Thu Jan 19 10:51:23 2017 (1484794283)
+1484796210.12:   Stop:     Thu Jan 19 11:23:23 2017 (1484796203)
+1484796210.12:   Elapsed:  00:32:00 (1920)
+1484796210.12:   Reported: 1911 443221000 1911.443221
+1484796210.12:  Success 483.xalancbmk base ref ratio=3.61, runtime=1911.443221, power=0.00w, temp=0.00 deg, humidity=0.00%
+1484796210.12: Success: 1x483.xalancbmk
+1484796210.14: Producing Raw Reports
+1484796210.14: mach: default
+1484796210.14:   ext: aarch64
+1484796210.14:     size: ref
+1484796210.14:       set: int
+1484796210.24: NOTICE: sw_compiler is longer than 50 characters and will be split
+1484796210.25: WARNING: the following line:
+1484796210.25: -----
+1484796210.25: Using built-in specs. COLLECT_GCC=aarch64-linux-gnu-gcc COLLECT_LTO_WRAPPER=/home/bamvor/works/software/toolchain/gcc-linaro-6.2.1-2016.11-x86_64_aarch64-linux-gnu/gcc-linaro-6.2.1-2016.11-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/6.2.1/lto-wrapper Target: aarch64-linux-gnu Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/snapshots/gcc-linaro-6.2-2016.11/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --enable-gnu-indirect-function --disable-multilib --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu/aarch64-linux-gnu/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu Thread model: posix gcc version 6.2.1 20161016 (Linaro GCC 6.2-2016.11)
+1484796210.25: -----
+1484796210.25: contains an element longer than 50 columns and could not be split.
+1484796210.38:         format: raw -> /home/bamvor/works-new/CPU2006/result/CINT2006.075.ref.rsf
+
+1484796215.83: NOTICE: sw_compiler is longer than 50 characters and will be split
+1484796215.83: WARNING: the following line:
+1484796215.83: -----
+1484796215.83: Using built-in specs. COLLECT_GCC=aarch64-linux-gnu-gcc COLLECT_LTO_WRAPPER=/home/bamvor/works/software/toolchain/gcc-linaro-6.2.1-2016.11-x86_64_aarch64-linux-gnu/gcc-linaro-6.2.1-2016.11-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/6.2.1/lto-wrapper Target: aarch64-linux-gnu Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/snapshots/gcc-linaro-6.2-2016.11/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --enable-gnu-indirect-function --disable-multilib --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu/aarch64-linux-gnu/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu Thread model: posix gcc version 6.2.1 20161016 (Linaro GCC 6.2-2016.11)
+1484796215.83: -----
+1484796215.83: contains an element longer than 50 columns and could not be split.
+1484796216.54: Parsing flags for 483.xalancbmk base: done
+1484796216.55: Doing flag reduction: done
+1484796216.62:         format: ASCII -> /home/bamvor/works-new/CPU2006/result/CINT2006.075.ref.txt
+1484796216.63:         format: config -> /home/bamvor/works-new/CPU2006/result/CINT2006.075.ref.cfg, /home/bamvor/works-new/CPU2006/result/CINT2006.075.ref.orig.cfg
+1484796216.67:         format: CSV -> /home/bamvor/works-new/CPU2006/result/CINT2006.075.ref.csv
+1484796217.00:       set: fp
+
+1484796217.02: The log for this run is in /home/bamvor/works-new/CPU2006/result/CPU2006.075.log
+
+1484796217.02: runspec finished at Thu Jan 19 11:23:37 2017; 1941 total seconds elapsed
