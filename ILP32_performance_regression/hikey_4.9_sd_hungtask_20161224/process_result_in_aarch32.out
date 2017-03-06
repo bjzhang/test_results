@@ -1,0 +1,58 @@
+
+                 L M B E N C H  3 . 0   S U M M A R Y
+                 ------------------------------------
+		 (Alpha software, do not distribute)
+
+Basic system parameters
+------------------------------------------------------------------------------
+Host                 OS Description              Mhz  tlb  cache  mem   scal
+                                                     pages line   par   load
+                                                           bytes  
+--------- ------------- ----------------------- ---- ----- ----- ------ ----
+localhost Linux 4.9.0-1   ILP32_disable_aarch32 1200    10    64 2.4400    1
+localhost Linux 4.9.0-1   ILP32_disable_aarch32 1200    10    64 2.5000    1
+localhost Linux 4.9.0-1   ILP32_disable_aarch32 1200    10    64 2.4900    1
+localhost Linux 4.9.0-1   ILP32_disable_aarch32 1200    10    64 2.5500    1
+localhost Linux 4.9.0-1   ILP32_disable_aarch32 1200    10    64 2.4800    1
+localhost Linux 4.9.0-1    ILP32_enable_aarch32 1200    10    64 2.4900    1
+localhost Linux 4.9.0-1    ILP32_enable_aarch32 1200    10    64 2.4900    1
+localhost Linux 4.9.0-1    ILP32_enable_aarch32 1200    10    64 2.5000    1
+localhost Linux 4.9.0-1    ILP32_enable_aarch32 1200    10    64 2.5300    1
+localhost Linux 4.9.0-1    ILP32_enable_aarch32 1200    10    64 2.5300    1
+localhost Linux 4.9.0-1  ILP32_unmerged_aarch32 1200    10    64 2.4400    1
+localhost Linux 4.9.0-1  ILP32_unmerged_aarch32 1200    10    64 2.5100    1
+localhost Linux 4.9.0-1  ILP32_unmerged_aarch32 1200    10    64 2.5200    1
+localhost Linux 4.9.0-1  ILP32_unmerged_aarch32 1200    10    64 2.4900    1
+localhost Linux 4.9.0-1  ILP32_unmerged_aarch32 1200    10    64 2.5100    1
+
+Processor, Processes - times in microseconds - smaller is better
+------------------------------------------------------------------------------
+Host                 OS  Mhz null null      open slct sig  sig  fork exec sh  
+                             call  I/O stat clos TCP  inst hndl proc proc proc
+--------- ------------- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+localhost Linux 4.9.0-1 1200 0.23 0.50 3.89 6.90 17.0 0.72 3.04 460. 1512 6793
+localhost Linux 4.9.0-1 1200 0.23 0.49 3.91 6.82 17.0 0.75 3.05 493. 1588 6831
+localhost Linux 4.9.0-1 1200 0.25 0.50 3.89 6.90 16.9 0.73 3.05 436. 1572 6856
+localhost Linux 4.9.0-1 1200 0.23 0.51 3.88 6.65 17.1 0.74 3.06 481. 1646 6759
+localhost Linux 4.9.0-1 1200 0.24 0.50 3.87 6.65 17.1 0.74 3.05 517. 1536 6885
+localhost Linux 4.9.0-1 1200 0.24 0.51 4.05 6.94 16.9 0.72 3.29 582. 1473 6910
+localhost Linux 4.9.0-1 1200 0.24 0.51 4.03 6.93 17.0 0.74 3.30 478. 1653 6822
+localhost Linux 4.9.0-1 1200 0.24 0.50 4.08 7.11 17.6 0.74 3.27 491. 1629 6816
+localhost Linux 4.9.0-1 1200 0.24 0.50 3.99 6.90 17.2 0.75 3.26 490. 1582 6847
+localhost Linux 4.9.0-1 1200 0.24 0.50 4.03 7.15 16.9 0.73 3.26 500. 1595 6827
+localhost Linux 4.9.0-1 1200 0.24 0.51 3.71 6.84 17.3 0.74 3.24 557. 1573 6586
+localhost Linux 4.9.0-1 1200 0.24 0.52 3.69 6.57 17.0 0.74 3.09 452. 1595 6540
+localhost Linux 4.9.0-1 1200 0.24 0.52 3.73 6.60 17.1 0.73 3.09 528. 1502 6589
+localhost Linux 4.9.0-1 1200 0.24 0.51 3.69 6.53 17.2 0.74 3.10 511. 1562 6553
+localhost Linux 4.9.0-1 1200 0.24 0.51 3.69 6.68 17.3 0.71 3.10 478. 1567 6555
+
+disable 0.236   0.5 3.888   6.784   17.02   0.736   3.05    477.4   1570.8  6824.8
+enable  0.24    0.504   4.036   7.006   17.12   0.736   3.276   508.2   1586.4  6844.4
+unmerged    0.24    0.514   3.702   6.644   17.18   0.732   3.124   505.2   1559.8  6564.6
+
+
+    null call   null I/O    stat    open/close  slct TCP    sig inst    sig hndl    fork proc   exec proc   sh proc
+disable 0.9833333333    0.9727626459    1.050243112 1.021071644 0.9906868452    1.005464481 0.97631242  0.9449722882    1.007052186 1.03963684
+enable  1   0.9805447471    1.090221502 1.05448525  0.9965075669    1.005464481 1.04865557  1.005938242 1.017053468 1.042622551
+unmerged    1   1   1   1   1   1   1   1   1   1
+
