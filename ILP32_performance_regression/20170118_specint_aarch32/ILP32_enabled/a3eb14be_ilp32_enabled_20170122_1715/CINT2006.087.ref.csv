@@ -1,0 +1,277 @@
+valid,0
+
+"Full Results Table"
+
+Benchmark,"Base Ref Time","Est. Base Run Time","Est. Base Ratio","Base Selected","Base Status","Peak Ref Time","Est. Peak Run Time","Est. Peak Ratio","Peak Selected","Peak Status",Description
+400.perlbench,,,,,NR,,,,,NR
+401.bzip2,,,,,NR,,,,,NR
+403.gcc,,,,,NR,,,,,NR
+429.mcf,9120,3523.199394,2.588556,1,S,,,,,,"ref iteration #1"
+445.gobmk,,,,,NR,,,,,NR
+456.hmmer,9330,3176.254674,2.937422,1,S,,,,,,"ref iteration #1"
+458.sjeng,12100,2821.546047,4.288429,1,S,,,,,,"ref iteration #1"
+462.libquantum,,,,,NR,,,,,NR
+464.h264ref,22130,3114.699656,7.105019,1,S,,,,,,"ref iteration #1"
+471.omnetpp,,,,,NR,,,,,NR
+473.astar,7020,2379.165155,2.950615,1,S,,,,,,"ref iteration #1"
+483.xalancbmk,6900,1620.044979,4.259141,1,S,,,,,,"ref iteration #1"
+
+"Selected Results Table"
+
+Benchmark,"Base Ref Time","Est. Base Run Time","Est. Base Ratio","Base Selected","Base Status","Peak Ref Time","Est. Peak Run Time","Est. Peak Ratio","Peak Selected","Peak Status",Description
+400.perlbench,,,,,NR,,,,,NR
+401.bzip2,,,,,NR,,,,,NR
+403.gcc,,,,,NR,,,,,NR
+429.mcf,9120,3523.199394,2.588556,1,S,,,,,NR,"SelectedIteration (base #1)"
+445.gobmk,,,,,NR,,,,,NR
+456.hmmer,9330,3176.254674,2.937422,1,S,,,,,NR,"SelectedIteration (base #1)"
+458.sjeng,12100,2821.546047,4.288429,1,S,,,,,NR,"SelectedIteration (base #1)"
+462.libquantum,,,,,NR,,,,,NR
+464.h264ref,22130,3114.699656,7.105019,1,S,,,,,NR,"SelectedIteration (base #1)"
+471.omnetpp,,,,,NR,,,,,NR
+473.astar,7020,2379.165155,2.950615,1,S,,,,,NR,"SelectedIteration (base #1)"
+483.xalancbmk,6900,1620.044979,4.259141,1,S,,,,,NR,"SelectedIteration (base #1)"
+
+SPECint_base2006,--,,--
+SPECint2006,"Not Run",,,,,,,"Not Run"
+
+"Run number:",087
+
+"Hardware Vendor:",--
+"Hardware Model:",Hikey
+"Date tested:",Jan-2017
+"CPU2006 License:",4114
+"Test sponsor:",Linaro
+"Tested by:",Linaro
+"Hardware avail:",--
+"Software avail:",--
+
+
+HARDWARE
+
+"CPU Name",--
+"CPU Characteristics"," "
+"CPU MHz",--
+FPU,fp_asimd
+"CPU(s) enabled","-1 cores, -1 chips, -1 cores/chip, -1 threads/core"
+"CPU(s) orderable",--
+"Primary Cache",--
+"Secondary Cache",--
+"L3 Cache",--
+"Other Cache",--
+Memory,--
+"Disk Subsystem",--
+"Other Hardware",--
+
+SOFTWARE
+
+"Operating System",4.9.0-11332-g59331c215daf
+Compiler,"Using built-in specs. COLLECT_GCC=arm-linux-gnueabihf-gcc COLLECT_LTO_WRAPPER=/home/bamvor/works/software/toolchain/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/6.2.1/lto-wrapper Target: arm-linux-gnueabihf Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/snapshots/gcc-linaro-6.2-2016.11/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --enable-gnu-indirect-function --disable-multilib --with-tune=cortex-a9 --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/sysroots/arm-linux-gnueabihf --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu Thread model: posix gcc version 6.2.1 20161016 (Linaro GCC 6.2-2016.11)"
+"Auto Parallel",No
+"File System",--
+"System State",--
+"Base Pointers",--
+"Peak Pointers","Not Applicable"
+"Other Software",--
+
+"General Notes"
+
+" Top-level shell is run with taskset, so whole benchmark suite is executed on a single core"
+
+"Base Compiler Invocation"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf," No flags used"
+445.gobmk
+456.hmmer," No flags used"
+458.sjeng," No flags used"
+462.libquantum
+464.h264ref," No flags used"
+471.omnetpp
+473.astar," No flags used"
+483.xalancbmk," No flags used"
+
+"Base Portability Flags"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf
+445.gobmk
+456.hmmer
+458.sjeng
+462.libquantum
+464.h264ref
+471.omnetpp
+473.astar
+483.xalancbmk," -DSPEC_CPU_LINUX"
+
+"Base Optimization Flags"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf," No flags used"
+445.gobmk
+456.hmmer," No flags used"
+458.sjeng," No flags used"
+462.libquantum
+464.h264ref," No flags used"
+471.omnetpp
+473.astar," No flags used"
+483.xalancbmk," No flags used"
+
+"Base Other Flags"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf," No flags used"
+445.gobmk
+456.hmmer," No flags used"
+458.sjeng," No flags used"
+462.libquantum
+464.h264ref," No flags used"
+471.omnetpp
+473.astar," No flags used"
+483.xalancbmk," No flags used"
+
+"Base Forbidden Flags"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf
+445.gobmk
+456.hmmer
+458.sjeng
+462.libquantum
+464.h264ref
+471.omnetpp
+473.astar
+483.xalancbmk
+
+"Base Unknown Flags"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf," arm-linux-gnueabihf-gcc"," arm-linux-gnueabihf-gcc"," -O3 -fno-common   -static -static-libgcc"," -O3 -fno-common   -static -static-libgcc"
+445.gobmk
+456.hmmer," arm-linux-gnueabihf-gcc"," arm-linux-gnueabihf-gcc"," -O3 -fno-common   -static -static-libgcc"," -O3 -fno-common   -static -static-libgcc"
+458.sjeng," arm-linux-gnueabihf-gcc"," arm-linux-gnueabihf-gcc"," -O3 -fno-common   -static -static-libgcc"," -O3 -fno-common   -static -static-libgcc"
+462.libquantum
+464.h264ref," arm-linux-gnueabihf-gcc"," arm-linux-gnueabihf-gcc"," -fsigned-char"," -fsigned-char"," -O3 -fno-common   -static -static-libgcc"," -O3 -fno-common   -static -static-libgcc"
+471.omnetpp
+473.astar," arm-linux-gnueabihf-g++"," arm-linux-gnueabihf-g++"," -O3 -fno-common -static -static-libgcc"," -O3 -fno-common -static -static-libgcc"
+483.xalancbmk," arm-linux-gnueabihf-g++"," arm-linux-gnueabihf-g++"," -O3 -fno-common -static -static-libgcc"," -O3 -fno-common -static -static-libgcc"
+
+"Peak Compiler Invocation"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf
+445.gobmk
+456.hmmer
+458.sjeng
+462.libquantum
+464.h264ref
+471.omnetpp
+473.astar
+483.xalancbmk
+
+"Peak Portability Flags"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf
+445.gobmk
+456.hmmer
+458.sjeng
+462.libquantum
+464.h264ref
+471.omnetpp
+473.astar
+483.xalancbmk
+
+"Peak Optimization Flags"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf
+445.gobmk
+456.hmmer
+458.sjeng
+462.libquantum
+464.h264ref
+471.omnetpp
+473.astar
+483.xalancbmk
+
+"Peak Other Flags"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf
+445.gobmk
+456.hmmer
+458.sjeng
+462.libquantum
+464.h264ref
+471.omnetpp
+473.astar
+483.xalancbmk
+
+"Peak Forbidden Flags"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf
+445.gobmk
+456.hmmer
+458.sjeng
+462.libquantum
+464.h264ref
+471.omnetpp
+473.astar
+483.xalancbmk
+
+"Peak Unknown Flags"
+400.perlbench
+401.bzip2
+403.gcc
+429.mcf
+445.gobmk
+456.hmmer
+458.sjeng
+462.libquantum
+464.h264ref
+471.omnetpp
+473.astar
+483.xalancbmk
+
+ERRORS
+
+##############################################################################
+"#   INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN  #"
+"#                                                                            #"
+"# 'reportable' flag not set during run                                       #"
+"# 471.omnetpp (base) did not have enough runs!                               #"
+"# 456.hmmer (base) did not have enough runs!                                 #"
+"# 445.gobmk (base) did not have enough runs!                                 #"
+"# 458.sjeng (base) did not have enough runs!                                 #"
+"# 429.mcf (base) did not have enough runs!                                   #"
+"# 473.astar (base) did not have enough runs!                                 #"
+"# 483.xalancbmk (base) did not have enough runs!                             #"
+"# 400.perlbench (base) did not have enough runs!                             #"
+"# 464.h264ref (base) did not have enough runs!                               #"
+"# 462.libquantum (base) did not have enough runs!                            #"
+"# 401.bzip2 (base) did not have enough runs!                                 #"
+"# 403.gcc (base) did not have enough runs!                                   #"
+"# Unknown flags were used! See                                               #"
+"#      http://www.spec.org/cpu2006/Docs/runspec.html#flagsurl                #"
+"# for information about how to get rid of this error.                        #"
+"#                                                                            #"
+"#   INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN  #"
+##############################################################################
+----------------
+"For questions about","this result, please","contact the tester.",
+"For other inquiries,","please contact",webmaster@spec.org.,
+"Copyright 2006-2017 Standard","Performance Evaluation",Corporation,
+"Tested with SPEC CPU2006 ","v1.2.  Report","generated on ","Sun Jan 22 22:25:07 2017","by SPEC CPU2006 CSV","formatter v6364."

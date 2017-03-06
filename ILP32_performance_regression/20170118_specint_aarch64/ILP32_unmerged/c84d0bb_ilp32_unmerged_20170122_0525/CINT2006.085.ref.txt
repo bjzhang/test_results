@@ -1,0 +1,215 @@
+##############################################################################
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+#                                                                            #
+# 'reportable' flag not set during run                                       #
+# 471.omnetpp (base) did not have enough runs!                               #
+# 456.hmmer (base) did not have enough runs!                                 #
+# 445.gobmk (base) did not have enough runs!                                 #
+# 458.sjeng (base) did not have enough runs!                                 #
+# 429.mcf (base) did not have enough runs!                                   #
+# 473.astar (base) did not have enough runs!                                 #
+# 483.xalancbmk (base) did not have enough runs!                             #
+# 400.perlbench (base) did not have enough runs!                             #
+# 464.h264ref (base) did not have enough runs!                               #
+# 462.libquantum (base) did not have enough runs!                            #
+# 401.bzip2 (base) did not have enough runs!                                 #
+# 403.gcc (base) did not have enough runs!                                   #
+# Unknown flags were used! See                                               #
+#      http://www.spec.org/cpu2006/Docs/runspec.html#flagsurl                #
+# for information about how to get rid of this error.                        #
+#                                                                            #
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+##############################################################################
+                           SPEC(R) CINT2006 Summary
+                                   -- Hikey
+                             Test Sponsor: Linaro
+                           Sun Jan 22 05:54:57 2017
+
+CPU2006 License: 4114                                    Test date: Jan-2017
+Test sponsor: Linaro                         Hardware availability: --      
+Tested by:    Linaro                         Software availability: --      
+
+                                  Estimated                       Estimated
+                Base     Base       Base        Peak     Peak       Peak
+Benchmarks      Ref.   Run Time     Ratio       Ref.   Run Time     Ratio
+-------------- ------  ---------  ---------    ------  ---------  ---------
+400.perlbench    9770       2252       4.34 *                                  
+401.bzip2        9650       3647       2.65 *                                  
+403.gcc                                     NR                                 
+429.mcf          9120       4410       2.07 *                                  
+445.gobmk       10490       2217       4.73 *                                  
+456.hmmer                                   NR                                 
+458.sjeng       12100       2580       4.69 *                                  
+462.libquantum  20720       1908      10.9  *                                  
+464.h264ref     22130       3025       7.32 *                                  
+471.omnetpp                                 NR                                 
+473.astar                                   NR                                 
+483.xalancbmk    6900       1899       3.63 *                                  
+==============================================================================
+400.perlbench    9770       2252       4.34 *                                  
+401.bzip2        9650       3647       2.65 *                                  
+403.gcc                                     NR                                 
+429.mcf          9120       4410       2.07 *                                  
+445.gobmk       10490       2217       4.73 *                                  
+456.hmmer                                   NR                                 
+458.sjeng       12100       2580       4.69 *                                  
+462.libquantum  20720       1908      10.9  *                                  
+464.h264ref     22130       3025       7.32 *                                  
+471.omnetpp                                 NR                                 
+473.astar                                   NR                                 
+483.xalancbmk    6900       1899       3.63 *                                  
+ Est. SPECint(R)_base2006                --
+ Est. SPECint2006                                                   Not Run
+
+
+                                   HARDWARE
+                                   --------
+            CPU Name: --
+ CPU Characteristics:  
+             CPU MHz: --
+                 FPU: fp_asimd
+      CPU(s) enabled: -1 cores, -1 chips, -1 cores/chip, -1 threads/core
+    CPU(s) orderable: --
+       Primary Cache: --
+     Secondary Cache: --
+            L3 Cache: --
+         Other Cache: --
+              Memory: --
+      Disk Subsystem: --
+      Other Hardware: --
+
+
+                                   SOFTWARE
+                                   --------
+    Operating System: 4.10.0-rc2-00109-ge02003b
+            Compiler: Using built-in specs. COLLECT_GCC=aarch64-linux-gnu-gcc COLLECT_LTO_WRAPPER=/home/bamvor/works/software/toolchain/gcc-linaro-6.2.1-2016.11-x86_64_aarch64-linux-gnu/gcc-linaro-6.2.1-2016.11-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/6.2.1/lto-wrapper Target: aarch64-linux-gnu Configured with: /home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/snapshots/gcc-linaro-6.2-2016.11/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --enable-gnu-indirect-function --disable-multilib --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/sysroots/aarch64-linux-gnu --enable-lto --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu/aarch64-linux-gnu/libc --enable-languages=c,c++,fortran,lto --enable-checking=release --disable-bootstrap --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=aarch64-linux-gnu --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/aarch64-linux-gnu/_build/builds/destdir/x86_64-unknown-linux-gnu Thread model: posix gcc version 6.2.1 20161016 (Linaro GCC 6.2-2016.11)
+       Auto Parallel: No
+         File System: --
+        System State: --
+       Base Pointers: --
+       Peak Pointers: Not Applicable
+      Other Software: --
+
+
+                                General Notes
+                                -------------
+     Top-level shell is run with taskset, so whole benchmark suite is executed on a single core
+
+                              Base Unknown Flags
+                              ------------------
+  400.perlbench: "aarch64-linux-gnu-gcc" (in CC)
+                 "aarch64-linux-gnu-gcc" (in LD)
+                 "-fgnu89-inline" (in CPORTABILITY)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+      401.bzip2: "aarch64-linux-gnu-gcc" (in CC)
+                 "aarch64-linux-gnu-gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+        429.mcf: "aarch64-linux-gnu-gcc" (in CC)
+                 "aarch64-linux-gnu-gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+      445.gobmk: "aarch64-linux-gnu-gcc" (in CC)
+                 "aarch64-linux-gnu-gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+      458.sjeng: "aarch64-linux-gnu-gcc" (in CC)
+                 "aarch64-linux-gnu-gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+ 462.libquantum: "aarch64-linux-gnu-gcc" (in CC)
+                 "aarch64-linux-gnu-gcc" (in LD)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+    464.h264ref: "aarch64-linux-gnu-gcc" (in CC)
+                 "aarch64-linux-gnu-gcc" (in LD)
+                 "-fsigned-char" (in CPORTABILITY)
+                 "-O3 -fno-common   -static -static-libgcc" (in COPTIMIZE)
+
+  483.xalancbmk: "aarch64-linux-gnu-g++" (in CXX)
+                 "aarch64-linux-gnu-g++" (in LD)
+                 "-O3 -fno-common -static -static-libgcc" (in CXXOPTIMIZE)
+
+
+                           Base Compiler Invocation
+                           ------------------------
+C++ benchmarks:
+
+  483.xalancbmk: No flags used
+
+
+                            Base Portability Flags
+                            ----------------------
+  400.perlbench: -DSPEC_CPU_LP64 -DSPEC_CPU_LINUX_X64
+      401.bzip2: -DSPEC_CPU_LP64
+        429.mcf: -DSPEC_CPU_LP64
+      445.gobmk: -DSPEC_CPU_LP64
+      458.sjeng: -DSPEC_CPU_LP64
+ 462.libquantum: -DSPEC_CPU_LP64 -DSPEC_CPU_LINUX
+    464.h264ref: -DSPEC_CPU_LP64
+  483.xalancbmk: -DSPEC_CPU_LP64 -DSPEC_CPU_LINUX
+
+
+                           Base Optimization Flags
+                           -----------------------
+C benchmarks:
+
+  400.perlbench: No flags used
+
+      401.bzip2: Same as 400.perlbench
+
+        429.mcf: Same as 400.perlbench
+
+      445.gobmk: Same as 400.perlbench
+
+      458.sjeng: Same as 400.perlbench
+
+ 462.libquantum: Same as 400.perlbench
+
+    464.h264ref: Same as 400.perlbench
+
+C++ benchmarks:
+
+  483.xalancbmk: No flags used
+
+
+                               Base Other Flags
+                               ----------------
+C++ benchmarks:
+
+  483.xalancbmk: No flags used
+
+
+    SPEC and SPECint are registered trademarks of the Standard Performance
+    Evaluation Corporation.  All other brand and product names appearing
+    in this result are trademarks or registered trademarks of their
+    respective holders.
+##############################################################################
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+#                                                                            #
+# 'reportable' flag not set during run                                       #
+# 471.omnetpp (base) did not have enough runs!                               #
+# 456.hmmer (base) did not have enough runs!                                 #
+# 445.gobmk (base) did not have enough runs!                                 #
+# 458.sjeng (base) did not have enough runs!                                 #
+# 429.mcf (base) did not have enough runs!                                   #
+# 473.astar (base) did not have enough runs!                                 #
+# 483.xalancbmk (base) did not have enough runs!                             #
+# 400.perlbench (base) did not have enough runs!                             #
+# 464.h264ref (base) did not have enough runs!                               #
+# 462.libquantum (base) did not have enough runs!                            #
+# 401.bzip2 (base) did not have enough runs!                                 #
+# 403.gcc (base) did not have enough runs!                                   #
+# Unknown flags were used! See                                               #
+#      http://www.spec.org/cpu2006/Docs/runspec.html#flagsurl                #
+# for information about how to get rid of this error.                        #
+#                                                                            #
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+##############################################################################
+-----------------------------------------------------------------------------
+For questions about this result, please contact the tester.
+For other inquiries, please contact webmaster@spec.org.
+Copyright 2006-2017 Standard Performance Evaluation Corporation
+Tested with SPEC CPU2006 v1.2.
+Report generated on Sun Jan 22 12:03:35 2017 by CPU2006 ASCII formatter v6400.

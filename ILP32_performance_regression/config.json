@@ -1,0 +1,41 @@
+{
+    "kernel": {
+        "commits": [
+            {
+                "commit": "c84d0bb", 
+                "name": "ilp32_unmerged"
+            }
+        ], 
+        "config_disable": "ARM64_ILP32", 
+        "config_enable": "AARCH32_EL0,COMPAT", 
+        "dtb_install": "/mnt/old-root/boot/hi6220-hikey-bamvor-test.dtb", 
+        "dtb_path": "arch/arm64/boot/dts/hisilicon/hi6220-hikey.dtb", 
+        "host": "bd", 
+        "kernel_install": "/mnt/old-root/boot/Image-bamvor-test", 
+        "modules_install": "/lib/modules", 
+        "modules_path": "usr/lib/modules/*", 
+        "path": "/home/bamvor/works/source/kernel/linux", 
+        "user": "bamvor"
+    }, 
+    "server": {
+        "host": "bd", 
+        "log_base": "/home/bamvor/works/source/test_results/ILP32_performance_regression/20170118_specint_aarch32/ILP32_unmerged", 
+        "log_base_with_time": "1", 
+        "user": "bamvor"
+    }, 
+    "test": {
+        "grub": "bamvor-test", 
+        "grub_cfg": "/mnt/old-root/boot/grub/grub.cfg", 
+        "host": "hk2", 
+        "log_cmd": [
+            "cd /home/bamvor/CPU2006/result; ls"
+        ], 
+        "log_dir": "/home/bamvor/CPU2006/result", 
+        "root": "root", 
+        "testsuite": [
+            "cd /home/bamvor/CPU2006;. ./linaro_aarch32.sh mcf hmmer sjeng h264ref astar xalancbmk"
+        ], 
+        "total_test_count": 1, 
+        "user": "root"
+    }
+}
